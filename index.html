@@ -5,8 +5,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Semantic HTML</title>
+    <style>
+        #menu {
+            margin-right: 18px;
+            font-size: 16px;
+            text-decoration: none;
+        }
+    </style>
 </head>
 <body>
-    
+    <header style="height: 70px; background-color: rgb(25, 24, 25); display: flex; justify-content: space-between; position: fixed;">
+        <img src="images/logo.png" alt="brand-logo">
+        <nav>
+            <ul style="display: flex; padding-right: 12px;">
+                <li id="menu"><a href="#home">Home</a></li>
+                <li id="menu"><a href="#about">About</a></li>
+                <li id="menu"><a href="#services">Services</a></li>
+                <li id="menu"><a href="#portfolio">Portfolio</a></li>
+                <li id="menu"><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home"  style="height: 600px; background-color: blueviolet;">
+            <h1>Home Section</h1>
+        </section>
+
+        <section id="about" style="height: 600px; background-color: rgb(55, 37, 71);">
+            <h1>About Section</h1>
+        </section>
+
+        <section id="services" style="height: 600px; background-color: rgb(108, 165, 33);">
+            <h1>Services Section</h1>
+        </section>
+
+        <section id="portfolio" style="height: 600px; background-color: rgb(238, 141, 143);">
+            <h1>Portfolio Section</h1>
+        </section>
+
+        <section id="contact" style="height: 600px; background-color: rgb(24, 57, 24);">
+            <h1>Contact Section</h1>
+        </section>
+    </main>
+    <footer>
+        <p>my footer</p>
+    </footer>
 </body>
 </html>
